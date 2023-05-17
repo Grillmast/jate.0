@@ -18,23 +18,23 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        filename: 'index.html',
+        title: 'JATE',
       }),
 
       new InjectManifest({
         swSrc: './src-sw.js',
-        swDest: 'sw.js',
+        swDest: 'src-sw.js',
       }),
 
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'My Progressive Web App',
-        short_name: 'MyPWA',
-        description: 'My awesome Progressive Web App!',
-        background_color: '#ffffff',
+        name: 'JATE',
+        short_name: 'JATE',
+        description: 'JATE - Just Another Text Editor',
+        background_color: '#2196f3',
         theme_color: '#2196f3',
-        start_url: '/',
+        start_url: './',
         publicPath: '/',
         icons: [
           {
