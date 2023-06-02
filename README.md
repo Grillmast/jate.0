@@ -48,20 +48,6 @@ Access the text editor application from your browser by visiting the provided UR
 * Registration of a service worker using workbox for offline functionality.
 * Pre-caching of static assets upon loading, including subsequent pages and assets.
 
-## Deployment
-To deploy jate.0 to Heroku, ensure that you have set up a Heroku account and installed the Heroku CLI. Then, follow these steps:
-
-Create a new Heroku app:
-lua
-Copy code
-heroku create
-Set the necessary build scripts for a webpack application in your package.json file.
-Commit any changes and push the code to the Heroku remote repository:
-css
-Copy code
-git push heroku main
-Once the deployment process is complete, your jate.0 application will be accessible at the provided Heroku URL.
-
 ## Contributing
 Contributions to jate.0 are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on the GitHub repository or submit a pull request.
 
