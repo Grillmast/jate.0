@@ -30,8 +30,8 @@ To start using jate.0, follow these steps:
 
 Open your preferred text editor and navigate to the project's root directory.
 Run the following command to start the backend and serve the client:
-```
 Copy code
+```
 npm run start
 ```
 Access the text editor application from your browser by visiting the provided URL.
